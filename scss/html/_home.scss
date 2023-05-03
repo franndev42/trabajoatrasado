@@ -1,0 +1,77 @@
+a {
+  text-decoration: none;
+}
+
+/*header*/
+
+header {
+  .wrapper {
+    height: 100vh;
+    width: 100vw;
+  }
+  .home {
+    background-image: url(/img/cementerio-spantapajaro.png);
+    background-size: cover;
+    color: #000000;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .navbar__brandd {
+    color: #ffffff;
+  }
+  .navbar__brand--spann {
+    color: #d45d08;
+  }
+  ul {
+    .menu__link {
+      list-style: none;
+      margin: 2em;
+      .menu__item {
+        color: #000000;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .navbar .fa-solid {
+    color: #000000;
+    font-size: 2em;
+    display: none;
+  }
+
+  .content-info {
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+
+    .content-info_subtittlee {
+      font-size: clamp(1em, 5vw, 2em);
+     
+    }
+    .content-info_tittlee {
+      font-size: clamp(3em, 10vw, 5em);
+
+  }
+
+  }
+  
+
+}
+@media screen and (max-width: 768px){
+  .menu{
+    background-color: #000;
+    flex-direction: column;
+    justify-content: space-around;
+  padding: 3em;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  }
+  .navbar , .fa-solid, .show-menu{
+    display: block;
+  }
+}

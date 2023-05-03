@@ -1,0 +1,47 @@
+/* ETIQUETAS GENERALES*/
+
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  font-family: "Press Start 2P", cursive;
+}
+
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 1.2em;
+  padding: 10px 3em;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: #dd6106;
+}
+
+  
+@media screen and (max-width: 768px){
+  .menu{
+    background-color: #000;
+    flex-direction: column;
+    justify-content: space-around;
+  padding: 3em;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  }
+  .navbar , .fa-solid, .show-menu{
+    display: block;
+  }
+
+}

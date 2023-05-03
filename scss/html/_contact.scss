@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+  }
+  
+  /*header*/
+  
+  header {
+    .wrapper {
+      height: 100vh;
+      width: 100vw;
+ 
+    }
+    .contact{
+        background-image: url(/./img/lunass.jpg);
+        background-size: cover;
+        color: #dd6106;
+    }
+
+
+    .navbar {
+      justify-content: space-between;
+      padding: 2em;
+    }
+    .navbar__brand {
+      color: #ffffff;
+    }
+    .navbar__brand--span {
+      color: #81644e;
+    }
+    ul {
+      .menu__link {
+        list-style: none;
+        margin: 2em;
+        .menu__item {
+          color: #ffffff;
+          font-size: 1.2em;
+        }
+      }
+    }
+    .navbar .fa-solid {
+      color: #000000;
+      font-size: 2em;
+      display: none;
+    }
+  
+    .content-info {
+      width: 100vw;
+      height: 60vh;
+      align-items: center;
+      flex-direction: column;
+  
+      .content-info_subtittle {
+        font-size: clamp(1em, 5vw, 2em);
+        color: #fff2f2;
+      }
+      .content-info_tittle {
+        font-size: clamp(3em, 10vw, 5em);
+        color: #fff2f2;
+      }
+    }
+  }
+  
